@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новые тенденции в веб-разработке 2023 | Modern Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="index.html">Modern Blog</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">О блоге</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Войти</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.html">Регистрация</a>
+                        </li>
+                        <li class="nav-item">
+                            <button id="themeToggle" class="btn btn-link nav-link">
+                                <i class="bi bi-sun-fill"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <article class="card mb-4">
+                    <img src="images/post1.jpg" class="card-img-top" alt="Post Image">
+                    <div class="card-body">
+                        <div class="d-flex mb-3">
+                            <span class="badge bg-primary me-2">#технологии</span>
+                            <span class="badge bg-success">#программирование</span>
+                        </div>
+                        <h1 class="card-title mb-3">Новые тенденции в веб-разработке 2023</h1>
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="avatar bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3"
+                                style="width: 40px; height: 40px;">
+                                <span>ИП</span>
+                            </div>
+                            <div>
+                                <p class="mb-0 fw-bold">Иван Петров</p>
+                                <p class="mb-0 text-muted small">Опубликовано 15 октября 2023</p>
+                            </div>
+                        </div>
+
+                        <div class="post-content">
+                            <p class="lead">2023 год принес множество интересных изменений в мир веб-разработки. В этой
+                                статье мы рассмотрим самые значимые тенденции, которые стоит учитывать при создании
+                                современных веб-приложений.</p>
+
+                            <h2 class="mt-5">1. Рост популярности TypeScript</h2>
+                            <p>TypeScript продолжает набирать популярность среди разработчиков. По данным Stack Overflow
+                                Developer Survey 2023, TypeScript уже третий год подряд занимает второе место среди
+                                самых любимых языков программирования.</p>
+                            <p>Преимущества TypeScript:</p>
+                            <ul>
+                                <li>Статическая типизация уменьшает количество ошибок</li>
+                                <li>Лучшая поддержка IDE и автодополнение</li>
+                                <li>Более удобная работа с большими кодовыми базами</li>
+                            </ul>
+
+                            <h2 class="mt-5">2. Фреймворки с серверными компонентами</h2>
+                            <p>React Server Components, представленные в Next.js 13, открывают новые возможности для
+                                создания гибридных приложений, сочетающих преимущества серверного и клиентского
+                                рендеринга.</p>
+                            <p>Основные преимущества:</p>
+                            <ul>
+                                <li>Уменьшение размера клиентского бандла</li>
+                                <li>Более быстрая загрузка страниц</li>
+                                <li>Доступ к серверным ресурсам напрямую из компонентов</li>
+                            </ul>
+
+                            <h2 class="mt-5">3. Веб-компоненты и микрофронтенды</h2>
+                            <p>Архитектура микрофронтендов продолжает развиваться, и веб-компоненты становятся все более
+                                популярным решением для их реализации.</p>
+                            <p>Ключевые моменты:</p>
+                            <ul>
+                                <li>Использование Custom Elements и Shadow DOM</li>
+                                <li>Интеграция с популярными фреймворками</li>
+                                <li>Изоляция стилей и логики компонентов</li>
+                            </ul>
+
+                            <h2 class="mt-5">4. Оптимизация производительности</h2>
+                            <p>Core Web Vitals остаются важным фактором ранжирования в Google, поэтому оптимизация
+                                производительности стала обязательной частью разработки.</p>
+                            <p>Основные подходы:</p>
+                            <ul>
+                                <li>Использование современных форматов изображений (WebP, AVIF)</li>
+                                <li>Ленивая загрузка ресурсов</li>
+                                <li>Оптимизация JavaScript-бандлов</li>
+                                <li>Использование Edge Functions для сокращения задержек</li>
+                            </ul>
+
+                            <h2 class="mt-5">5. AI в разработке</h2>
+                            <p>Инструменты на основе искусственного интеллекта, такие как GitHub Copilot и ChatGPT,
+                                начинают играть важную роль в повседневной работе разработчиков.</p>
+                            <p>Возможности:</p>
+                            <ul>
+                                <li>Автодополнение кода</li>
+                                <li>Генерация boilerplate-кода</li>
+                                <li>Помощь в отладке и поиске решений</li>
+                            </ul>
+
+                            <div class="mt-5 p-4 bg-light rounded">
+                                <h3>Заключение</h3>
+                                <p>2023 год принес множество интересных изменений в веб-разработку. Освоение этих
+                                    тенденций поможет вам оставаться востребованным специалистом и создавать более
+                                    качественные приложения.</p>
+                                <p>Какие из этих технологий вы уже используете в своих проектах? Делитесь в
+                                    комментариях!</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-5 pt-3 border-top">
+                            <h5>Теги</h5>
+                            <div class="d-flex flex-wrap gap-2">
+                                <a href="#" class="badge bg-primary text-decoration-none">#технологии</a>
+                                <a href="#" class="badge bg-success text-decoration-none">#программирование</a>
+                                <a href="#" class="badge bg-info text-decoration-none">#вебразработка</a>
+                                <a href="#" class="badge bg-dark text-decoration-none">#typescript</a>
+                                <a href="#" class="badge bg-secondary text-decoration-none">#react</a>
+                            </div>
+                        </div>
+
+                        <div class="mt-5 pt-3 border-top">
+                            <h5>Комментарии (3)</h5>
+
+                            <div class="card mt-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <div class="avatar bg-secondary text-white rounded-circle d-flex align-items-center justify-content-center me-3"
+                                            style="width: 40px; height: 40px;">
+                                            <span>АК</span>
+                                        </div>
+                                        <div>
+                                            <p class="mb-0 fw-bold">Алексей Ковалев</p>
+                                            <p class="mb-0 text-muted small">2 дня назад</p>
+                                        </div>
+                                    </div>
+                                    <p>Отличная статья! Особенно согласен про TypeScript - после перехода на него
+                                        количество глупых ошибок сократилось в разы.</p>
+                                </div>
+                            </div>
+
+                            <div class="card mt-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <div class="avatar bg-danger text-white rounded-circle d-flex align-items-center justify-content-center me-3"
+                                            style="width: 40px; height: 40px;">
+                                            <span>МС</span>
+                                        </div>
+                                        <div>
+                                            <p class="mb-0 fw-bold">Мария Семенова</p>
+                                            <p class="mb-0 text-muted small">5 дней назад</p>
+                                        </div>
+                                    </div>
+                                    <p>А как вы относитесь к Svelte? По-моему, это тоже очень перспективное направление.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="card mt-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <div class="avatar bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3"
+                                            style="width: 40px; height: 40px;">
+                                            <span>ДП</span>
+                                        </div>
+                                        <div>
+                                            <p class="mb-0 fw-bold">Дмитрий Петров</p>
+                                            <p class="mb-0 text-muted small">1 неделю назад</p>
+                                        </div>
+                                    </div>
+                                    <p>Спасибо за обзор! Хотелось бы увидеть более подробный разбор про микрофронтенды в
+                                        следующих статьях.</p>
+                                </div>
+                            </div>
+
+                            <form class="mt-4">
+                                <div class="mb-3">
+                                    <label for="commentText" class="form-label">Оставить комментарий</label>
+                                    <textarea class="form-control" id="commentText" rows="3" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="sidebar sticky-lg-top">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">О блоге</h3>
+                            <p class="card-text">Modern Blog - это платформа для обмена знаниями о технологиях, дизайне
+                                и продуктивности. Присоединяйтесь к нашему сообществу!</p>
+                            <a href="about.html" class="btn btn-sm btn-outline-secondary">Подробнее</a>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Последние посты</h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="post.html">Новые тенденции в веб-разработке 2023</a></li>
+                                <li class="mb-2"><a href="post.html">Принципы доступного дизайна</a></li>
+                                <li class="mb-2"><a href="post.html">Как организовать рабочее пространство</a></li>
+                                <li class="mb-2"><a href="post.html">Основы React для начинающих</a></li>
+                                <li><a href="post.html">10 инструментов для дизайнера</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Теги</h3>
+                            <div class="d-flex flex-wrap gap-2">
+                                <a href="#" class="badge bg-primary text-decoration-none">#технологии</a>
+                                <a href="#" class="badge bg-success text-decoration-none">#программирование</a>
+                                <a href="#" class="badge bg-danger text-decoration-none">#дизайн</a>
+                                <a href="#" class="badge bg-warning text-dark text-decoration-none">#ux</a>
+                                <a href="#" class="badge bg-info text-decoration-none">#продуктивность</a>
+                                <a href="#" class="badge bg-secondary text-decoration-none">#советы</a>
+                                <a href="#" class="badge bg-dark text-decoration-none">#react</a>
+                                <a href="#" class="badge bg-primary text-decoration-none">#javascript</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-body-tertiary py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Modern Blog</h5>
+                    <p>Платформа для обмена знаниями и идеями.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Навигация</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О блоге</a></li>
+                        <li><a href="login.html">Войти</a></li>
+                        <li><a href="signup.html">Регистрация</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Контакты</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="bi bi-envelope me-2"></i>contact@modernblog.com</a></li>
+                        <li><a href="#"><i class="bi bi-twitter me-2"></i>Twitter</a></li>
+                        <li><a href="#"><i class="bi bi-github me-2"></i>GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2023 Modern Blog. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
