@@ -1,0 +1,9 @@
+{
+    "name": "ilya/www",
+    "autoload": {
+        "psr-4": {
+            "Web\\Blog\\Core\\Classes\\": "core/classes/"
+        }
+    },
+    "require": {}
+}
